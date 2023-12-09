@@ -1,0 +1,72 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+.card-text{
+  align-items: center;
+  align-self: center;
+  animation: both;
+  animation-duration: 2s;
+  border:blue;
+  padding-top: 5%;
+  border-style:hidden;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.card-img-top{
+  align-items: center;
+  align-self: center;
+  height:500px;
+  width:500px;
+}
+
+.d-block mx-lg-auto img-fluid{
+  align-items: center;
+  align-content: center;
+  height: 2px;
+  border-radius: 35%;
+}
+
+.col-lg-6{
+  font-style: italic;
+  font-weight: 500;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+.container col-xxl-8 px-4 pt-5{
+  align-items: center;
+  border-radius: 25%;
+}
+.contact{
+  align-items: center;
+  font-size: medium;
+  padding-left: 2%;
+  border-radius: 2%;
+  border: 4px;
+}
+
